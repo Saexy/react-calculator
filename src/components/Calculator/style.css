@@ -1,0 +1,72 @@
+.calculator{
+    width: 350px;
+    height: 425px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.calculator .preview{
+    width: 100%;
+    height: 125px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.calculator .preview .top{
+    font-size: 14px;
+}
+
+.calculator .preview .body{
+    font-size: 40px;
+}  
+
+.calculator .data{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calculator .data .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator .data .row .button-calc{
+    width: 75px;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.calculator .data .row .button-calc:hover{
+    background-color: black;
+    color: white;
+}
+
+.calculator .data .row .button-calc.operator{
+    background-color: rgb(206, 206, 206) !important;
+}
+
+.calculator .data .row .button-calc.operator:hover{
+    background-color: rgb(44, 44, 44) !important;
+}
+
+.calculator .data .row .button-calc.invis{
+    background-color: transparent !important;
+}
+
+.calculator .data .row .button-calc.invis:hover{
+    background-color: transparent !important;
+}
